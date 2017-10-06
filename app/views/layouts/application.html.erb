@@ -10,5 +10,45 @@
 
   <body>
     <%= yield %>
+
+    <%= javascript_include_tag('vendors/jquery/jquery.min.js') %>
+    <%= javascript_include_tag('vendors/wow.min.js') %>
+    <%= javascript_include_tag('vendors/bootstrap.min.js') %>
+    <%= javascript_include_tag('vendors/own-menu.js') %>
+    <%= javascript_include_tag('vendors/flexslider/jquery.flexslider-min.js') %>
+    <%= javascript_include_tag('vendors/jquery.countTo.js') %>
+    <%= javascript_include_tag('vendors/jquery.isotope.min.js') %>
+    <%= javascript_include_tag('vendors/jquery.bxslider.min.js') %>
+    <%= javascript_include_tag('vendors/owl.carousel.min.js') %>
+    <%= javascript_include_tag('vendors/jquery.sticky.js') %>
+    <%= javascript_include_tag('rs-plugin/js/jquery.themepunch.tools.min.js') %>
+    <%= javascript_include_tag('rs-plugin/js/jquery.themepunch.revolution.min.js') %>
+    <%= javascript_include_tag('zap.js') %>
+    <!-- JavaScripts -->
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src=""></script>
+    <script src=""></script>
+    <script>
+    /*-----------------------------------------------------------------------------------*/
+    /*    Parallax
+    /*-----------------------------------------------------------------------------------*/
+    $('.images-slider').flexslider({
+      animation: "fade",
+      controlNav: "thumbnails"
+    });
+    </script>
+
   </body>
 </html>
