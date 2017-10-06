@@ -21,6 +21,7 @@ Rails.application.config.assets.precompile += %w( vendors/own-menu.js )
 Rails.application.config.assets.precompile += %w( vendors/jquery.isotope.min.js )
 Rails.application.config.assets.precompile += %w( zap.js )
 
+
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
