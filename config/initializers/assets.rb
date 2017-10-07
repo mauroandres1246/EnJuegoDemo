@@ -20,6 +20,8 @@ Rails.application.config.assets.precompile += %w( rs-plugin/js/jquery.themepunch
 Rails.application.config.assets.precompile += %w( vendors/own-menu.js )
 Rails.application.config.assets.precompile += %w( vendors/jquery.isotope.min.js )
 Rails.application.config.assets.precompile += %w( zap.js )
+Rails.application.config.assets.precompile += %w( vendors/modernizr.js )
+Rails.application.config.assets.precompile += %w( responsive.css )
 
 
 # Precompile additional assets.
