@@ -1,7 +1,6 @@
-
 <!-- Content -->
 <div id="content">
-    <section class="sub-banner animated fadeIn" style="background:url(assets/bg/shop-bg.jpg) fixed no-repeat">
+    <section class="sub-banner animated fadeIn" style="background:url(../assets/bg/shop-bg.jpg) fixed no-repeat">
         <div class="container">
             <div class="position-center-center">
                 <h2>SHOP PAGE</h2>
@@ -61,34 +60,17 @@
                                 <!-- New Products -->
                                 <li class="col-sm-3 animate fadeIn" data-wow-delay="0.2s">
                                     <div class="items-in">
+                                      <!-- Tags -->
+                                      <div class="shop-tags">OFERTA</div>
+                                      <div class="off-tags">-50%</div>
                                         <!-- Image -->
-                                        <img src="resources/images/shop/img-1.jpg" alt="">
+                                        <%= image_tag("shop/img-1.jpg") %>
                                         <!-- Hover Details -->
                                         <div class="over-item"> <a href="#." class="btn">ADD TO CART +</a> </div>
                                     </div>
                                     <!-- Item Name -->
                                     <div class="details-sec"> <a href="#.">SOFT RUCKSACK</a> <span class="font-crimson font-italic font-18px">$79.00 <span class="text-strike font-crimson font-italic font-16px margin-left-20">$128.00</span> </span> </div>
                                 </li>
-
-                                <c:forEach items="${products}" var="product">
-                                <!-- New Products -->
-                                <li class="col-sm-3 animate fadeIn" data-wow-delay="0.4s">
-                                    <div class="items-in">
-                                        <!-- Tags -->
-                                        <div class="shop-tags">${product.productCondition}</div>
-                                        <div class="off-tags">-50%</div>
-                                        <!-- Image -->
-                                        <img src="resources/images/shop/img-2.jpg" alt="">
-                                        <!-- Hover Details -->
-                                        <div class="over-item"> <a href="#." class="btn">ADD TO CART +</a> </div>
-                                    </div>
-                                    <!-- Item Name -->
-                                    <div class="details-sec"> <a href="#.">${product.productName}</a>
-                                        <span class="font-crimson font-italic font-18px">Q.${product.productPrice}
-                                            <span class="text-strike font-crimson font-italic font-16px margin-left-20">Q5,000.00</span>
-                                        </span> </div>
-                                </li>
-                                </c:forEach>
 
 
 
@@ -109,6 +91,4 @@
     </section>
 </div>
 </div>
-<!-- End Content -->
-
 <!-- End Content -->
